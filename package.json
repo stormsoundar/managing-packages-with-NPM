@@ -1,11 +1,20 @@
 {
+	"author": "Soundararajan M",
+	"description": "A project that does something awesome",
+	"keywords": [
+		"descriptive",
+		"related",
+		"freecodecamp"
+	],
+	"license": "MIT",
+	"version": "1.2.0",
 	"name": "fcc-learn-npm-package-json",
 	"dependencies": {
 		"express": "^4.14.0"
 	},
-	"main": "server.js",
+	"main": "myApp.js",
 	"scripts": {
-		"start": "node server.js"
+		"start": "node myApp.js"
 	},
 	"repository": {
 		"type": "git",
