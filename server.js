@@ -3,13 +3,13 @@
  * the verification process may break
  * ***************************************************/
 
-'use strict';
+// 'use strict';
 
 var fs = require('fs');
 var express = require('express');
 var app = express();
 const PORT = 3004;
-const apps = require("./myApp")
+const myApp = require("./myApp")
 
 if (!process.env.DISABLE_XORIGIN) {
   app.use(function(req, res, next) {
